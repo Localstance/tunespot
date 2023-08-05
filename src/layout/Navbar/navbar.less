@@ -1,0 +1,40 @@
+.base {
+  padding: 0 0 17px;
+}
+
+.list {
+  list-style: none;
+
+  &__link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 17px 24px;
+    width: 100%;
+    text-decoration: none;
+    gap: 12px;
+
+    &:hover {
+      background-color: #c5d1e2;
+    }
+  }
+
+  &__icon {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+
+    &_home {
+      background-image: url('assets/icons/home.png');
+    }
+
+    &_radios {
+      background-image: url('assets/icons/radio.png');
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+  }
+}

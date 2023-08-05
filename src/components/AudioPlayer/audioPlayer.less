@@ -1,0 +1,20 @@
+.base {
+  position: fixed;
+  bottom: -75px;
+  left: 0;
+  right: 0;
+  height: 75px;
+  z-index: 10;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  transition: all .16s linear;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 32px;
+  gap: 16px;
+
+  &_active {
+    bottom: 0;
+  }
+}
