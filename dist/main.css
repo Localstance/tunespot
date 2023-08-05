@@ -190,7 +190,8 @@ body,
   text-decoration: none;
   gap: 12px;
 }
-.navbar__list__link__W1GDo:hover {
+.navbar__list__link__W1GDo:hover,
+.navbar__list__link__W1GDo.active {
   background-color: #c5d1e2;
 }
 .navbar__list__icon__Ej2F2 {
